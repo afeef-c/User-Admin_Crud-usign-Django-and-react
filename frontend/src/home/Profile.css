@@ -1,0 +1,74 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #b2a57a;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right bottom, rgb(211, 209, 203), rgb(255, 192, 174));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right bottom, rgb(249, 168, 76), rgb(120, 111, 155))
+    }
+
+
+body{
+    
+    background-color: aliceblue;
+}
+/* UserProfile.css */
+
+.modal-dialog {
+    max-width: 500px;
+  }
+  
+  .modal-content {
+    border-radius: 0.5rem;
+  }
+  
+  .modal-header {
+    background-color: #f8f9fa;
+    border-bottom: none;
+  }
+  
+  .modal-title {
+    font-weight: bold;
+  }
+  
+  .modal-body {
+    padding: 1.5rem;
+  }
+  
+  .modal-footer {
+    border-top: none;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .modal-footer .btn-secondary {
+    margin-right: auto;
+  }
+  
+  .add-user-input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+    margin-bottom: 1rem;
+  }
+  
+  .add-user-button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-user-button:hover {
+    background-color: #0056b3;
+  }
+.main{
+  display: flex;
+}
